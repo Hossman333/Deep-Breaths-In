@@ -17,3 +17,7 @@ a img { border: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
 html { background: url(../images/cc_licensed_beach.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+h1 { font-family: 'Oxygen', sans-serif; font-size: 92px; color: #fff; position: absolute; text-shadow: black 0px 0px 30px; }
+h1.top-left { top: 20%; left: 10%; }
+h1.bottom-right { bottom: 20%; right: 10%; }

@@ -4,6 +4,9 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3/text-shadow";
+$default-text-shadow-color: rgba(black, 1);
+$default-text-shadow-blur: 30px;
 
 html {
 	background: url(../images/cc_licensed_beach.jpg) no-repeat center center fixed;
@@ -11,4 +14,22 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+h1{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 92px;
+	color: #fff;
+	position: absolute;
+  	@include single-text-shadow;
+
+	&.top-left{
+		top: 20%;
+		left: 10%;
+	}
+
+	&.bottom-right{
+		bottom: 20%;
+		right: 10%;
+	}
 }
