@@ -22,6 +22,7 @@ h1{
 	color: #fff;
 	position: absolute;
   	@include single-text-shadow;
+  	display: none;
 
 	&.top-left{
 		top: 20%;

@@ -1,3 +1,3 @@
 $(window).load(function(){
-	$('h1').delay('2000').fadeOut('slow');
+	$('h1').show().delay('2000').fadeOut('slow');
 });
