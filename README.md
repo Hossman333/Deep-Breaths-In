@@ -2,5 +2,5 @@
   Life can be full of challenges...  
   
 ## Sometimes we just need to take a deep breath
-  Double Click <br>
+  Double Click For Fullscreen <br>
 http://www.deepbreaths.in
